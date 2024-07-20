@@ -1,6 +1,11 @@
-# element-plus-snippets README
+# element-plus-snippets README 
 
 This is the README for your extension "element-plus-snippets". After writing up a brief description, we recommend including the following sections.
+
+### logo
+
+![logo.png]
+
 
 ## Features
 
