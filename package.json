@@ -1,14 +1,19 @@
 {
-  "name": "element-plus-snippets",
-  "displayName": "element-plus-snippets",
-  "description": "code snippets for element-plus which is a Vue.js 3.0",
+  "name": "elementplus-snippets",
+  "displayName": "elementplus-snippets",
+  "description": "elementplus 相关的代码片段",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
   },
+  "publisher": "DC911360",
   "categories": [
     "Snippets"
   ],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/DC911360/element-plus-snippets.git"
+    },
   "contributes": {
     "snippets": [
       {
