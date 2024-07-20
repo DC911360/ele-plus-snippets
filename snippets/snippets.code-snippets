@@ -1,0 +1,37 @@
+{
+    "Print to console": {
+		"scope": "",
+		"prefix": "Slog",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+
+	"Print to el-tabs":{
+		"prefix": "Eltab",
+		"body": [
+			"<el-tabs v-model=\"activeName\" class=\"demo-tabs\" @tab-click=\"handleClick\">",
+				"\t<el-tab-pane label=\"User\" name=\"first\">User</el-tab-pane>",
+				"\t<el-tab-pane label=\"Config\" name=\"second\">Config</el-tab-pane>",
+				"\t<el-tab-pane label=\"Role\" name=\"third\">Role</el-tab-pane>",
+				"\t<el-tab-pane label=\"Task\" name=\"fourth\">Task</el-tab-pane>",
+			"</el-tabs>\n",
+
+			"import { ref } from 'vue'",
+			"import type { TabsPaneContext } from 'element-plus'",
+
+			"const activeName = ref('first')",
+			"const handleClick = (tab: TabsPaneContext, event: Event) => {",
+				"\tconsole.log(tab, event)",
+			"}",
+
+			"$2"
+		],
+		"description": "ElementPlus el-tabs"
+	}
+
+
+
+}

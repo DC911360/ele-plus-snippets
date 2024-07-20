@@ -1,0 +1,20 @@
+{
+  "name": "element-plus-snippets",
+  "displayName": "element-plus-snippets",
+  "description": "code snippets for element-plus which is a Vue.js 3.0",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
