@@ -2,7 +2,7 @@
   "name": "ele-plus-snippets",
   "displayName": "ele-plus-snippets",
   "description": "elementplus 相关的代码片段",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.91.0"
   },
