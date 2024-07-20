@@ -30,7 +30,76 @@
 			"$2"
 		],
 		"description": "ElementPlus el-tabs"
-	}
+	},
+
+	"Print to el-button":{
+		"prefix": "Elbtn",
+		"body": [
+			"<div class=\"mb-4\">",
+				"\t<el-button>Default</el-button>",
+				"\t<el-button type=\"primary\">Primary</el-button>",
+				"\t<el-button type=\"success\">Success</el-button>",
+				"\t<el-button type=\"info\">Info</el-button>",
+				"\t<el-button type=\"warning\">Warning</el-button>",
+				"\t<el-button type=\"danger\">Danger</el-button>",
+  			"</div>\n",
+
+			"<div class=\"mb-4\">",
+				"\t<el-button round>Default</el-button>",
+				"\t<el-button type=\"primary\" round>Primary</el-button>",
+				"\t<el-button type=\"success\" round>Success</el-button>",
+				"\t<el-button type=\"info\" round>Info</el-button>",
+				"\t<el-button type=\"warning\" round>Warning</el-button>",
+				"\t<el-button type=\"danger\" round>Danger</el-button>",
+  			"</div>\n",
+
+			"<div class=\"mb-4\">",
+				"\t<el-button plain>Default</el-button>",
+				"\t<el-button type=\"primary\" plain>Primary</el-button>",
+				"\t<el-button type=\"success\" plain>Success</el-button>",
+				"\t<el-button type=\"info\" plain>Info</el-button>",
+				"\t<el-button type=\"warning\" plain>Warning</el-button>",
+				"\t<el-button type=\"danger\" plain>Danger</el-button>",
+  			"</div>\n",
+
+			"<div class=\"mb-4\">",
+				"\t<el-button :icon=\"Search\" circle >Default</el-button>",
+				"\t<el-button type=\"primary\" :icon=\"Edit\" circle>Primary</el-button>",
+				"\t<el-button type=\"success\" :icon=\"Check\" circle Success</el-button>",
+				"\t<el-button type=\"info\" :icon=\"Message\" circle</el-button>",
+				"\t<el-button type=\"warning\" :icon=\"Star\" circle>Warning</el-button>",
+				"\t<el-button type=\"danger\" :icon=\"Delete\" circle>Danger</el-button>",
+  			"</div>\n",
+
+			"import { Check, Delete, Edit, Message, Search, Star,  } from '@element-plus/icons-vue'",
+
+			"$2"
+		],
+		"description": "ElementPlus el-button"
+	},
+
+	"Print to el-link":{
+		"prefix": "Ellink",
+		"body": [
+			"<div>",
+				"\t<el-link href=\"xxx\" target=\"_blank\" disabled>default</el-link>",
+				"\t<el-link type=\"primary\">primary</el-link>",
+				"\t<el-link type=\"success\">success</el-link>",
+				"\t<el-link type=\"warning\">warning</el-link>",
+				"\t<el-link type=\"danger\">danger</el-link>",
+				"\t<el-link :underline=\"false\" type=\"info\">info</el-link>",
+				"\t<el-link :icon=\"Edit\">Edit</el-link>",
+				"\t<el-link>",
+      				"\t\tCheck<el-icon class=\"el-icon--right\"><icon-view /></el-icon>",
+    			"\t</el-link>",
+  			"</div>\n",
+			 "import { Edit, View as IconView } from '@element-plus/icons-vue'",
+			"$2"
+		],
+		"description": "ElementPlus el-link"
+	},
+
+
 
 
 

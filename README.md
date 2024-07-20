@@ -8,9 +8,13 @@ Continuously updating 持续更新中
 
 # Basic Part
 
-|  NO   |   key   | element Tag |
-|  ---- |   ----  | ----------  |
-| 1     |   Eltab | el-tabs     |
+|  NO   |   key      | element Tag |
+|  ---- |   ----     | ----------  |
+| 1     |    Slog    | console.log |
+| 2     |   Eltab    | el-tabs     |
+| 3     |   Elbtn    | el-button   |
+| 4     |   Ellink   | el-link     |
+
 
 ## Release Notes
 
