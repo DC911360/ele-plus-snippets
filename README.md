@@ -11,7 +11,7 @@ Continuously updating 持续更新中
 
 
 |  NO   |   key | element Tag |
-|  ---- | ----  | ----------  |
+|----| ----| ----------|
 | 1     | Eltab | el-tabs     |
 
 ## Release Notes
