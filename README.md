@@ -4,7 +4,7 @@
 Continuously updating 持续更新中
 
 # Logo
-![image](image/logo.png)
+![image](images/logo.png)
 
 # Basic Part
 
