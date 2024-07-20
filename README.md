@@ -10,9 +10,10 @@ Continuously updating 持续更新中
 ｜  1       ｜  Eltab    ｜  el-tabs    ｜
 
 
-|  NO   | key    | Element Tag ｜ 
-|  ---- | ----   | ----------- ｜
-| 1     | Eltab  |  el-tabs    ｜
+|  NO   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
 ## Release Notes
 
 ### 1.0.0
