@@ -99,6 +99,66 @@
 		"description": "ElementPlus el-link"
 	},
 
+	"Print to el-text":{
+		"prefix": "Eltext",
+		"body": [
+			"<div>",
+				"\t<el-text class=\"mx-1\" size=\"large\">Default</el-text>",
+				"\t<el-text class=\"mx-1\" type=\"primary\">Primary</el-text>",
+				"\t<el-text class=\"mx-1\" type=\"success\" size=\"small\">Success</el-text>",
+				"\t<el-text class=\"mx-1\" type=\"info\">Info</el-text>",
+				"\t<el-text class=\"mx-1\" type=\"warning\">Warning</el-text>",
+				"\t<el-text class=\"mx-1\" type=\"danger\">Danger</el-text>",
+				"\t<el-text class=\"w-150px mb-2\" truncated>",
+    				"\t\tSelf element set width 100px",
+  				"\t</el-text>",
+				"\t<el-row class=\"w-150px mb-2\">",
+				  "\t\t<el-text truncated>Squeezed by parent element</el-text>",
+				"v</el-row>",
+				"\t<el-text line-clamp=\"2\">",
+					"\t\tThe -webkit-line-clamp CSS property<br />",
+					"\t\tallows limiting of the contents of<br />",
+					"\t\ta block to the specified number of lines.",
+ 				"\t</el-text>",
+  			"</div>\n",
+			 
+			"$2"
+		],
+		"description": "ElementPlus el-text"
+	},
+
+	"Print to el-scrollbar":{
+		"prefix": "Elscrollbar",
+		"body": [
+			"<div>",
+				"\t<el-scrollbar height=\"400px\">",
+					"\t\t<p v-for=\"item in 20\" :key=\"item\" class=\"scrollbar-demo-item\">{{ item }}</p>",
+				"\t</el-scrollbar>",
+  			"</div>\n",
+			 ".scrollbar-flex-content {",
+				"\tdisplay: flex;",
+			 " }",
+			 ".scrollbar-demo-item {",
+				"\tflex-shrink: 0;",
+				"\tdisplay: flex;",
+				"\talign-items: center;",
+				"\tjustify-content: center;",
+				"\twidth: 100px;",
+				"\theight: 50px;",
+				"\tmargin: 10px;",
+				"\ttext-align: center;",
+				"\tborder-radius: 4px;",
+				"\tbackground: var(--el-color-danger-light-9);",
+				"\tcolor: var(--el-color-danger);",
+			  "}",
+			 
+			"$2"
+		],
+		"description": "ElementPlus el-scrollbar"
+	},
+
+
+
 
 
 

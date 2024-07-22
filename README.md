@@ -8,12 +8,14 @@ Continuously updating 持续更新中
 
 # Basic Part
 
-|  NO   |   key      | element Tag |
-|  ---- |   ----     | ----------  |
-| 1     |    Slog    | console.log |
-| 2     |   Eltab    | el-tabs     |
-| 3     |   Elbtn    | el-button   |
-| 4     |   Ellink   | el-link     |
+|  NO   |   key           | element Tag     |
+|  ---- |   ----          | ----------      |
+| 1     |    Slog         | console.log     |
+| 2     |   Eltab         | el-tabs         |
+| 3     |   Elbtn         | el-button       |
+| 4     |   Ellink        | el-link         |
+| 5     |   Eltext        | el-text         |
+| 6     |   Elscrollbar   | el-scrollbar    |
 
 
 
