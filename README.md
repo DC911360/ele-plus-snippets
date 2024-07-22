@@ -16,6 +16,11 @@ Continuously updating 持续更新中
 | 4     |   Ellink   | el-link     |
 
 
+
+# How make Vscode Snippets
+ https://www.yuque.com/alipaytdm4pz8prz/fagota/uotrysrk14i9ckeu?singleDoc# 
+《如何创建一个VsCode 代码 片段》
+
 ## Release Notes
 
 ### 1.0.0
