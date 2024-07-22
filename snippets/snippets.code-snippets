@@ -157,6 +157,46 @@
 		"description": "ElementPlus el-scrollbar"
 	},
 
+	"Print to el-select":{
+		"prefix": "Elselect",
+		"body": [
+			"<div>",
+				"\t<el-select  v-model=\"value\" placeholder=\"Select\" size=\"large\" style=\"width: 240px\">",
+					"\t<el-option  v-for=\"item in options\"  :key=\"item.value\"  :label=\"item.label\" :value=\"item.value\" />",
+				"\t</el-select>",
+  			"</div>\n",
+
+			"const value = ref('')",
+			"const options = [",
+				"\t{",
+					"\t\tvalue: 'Option1',",
+					"\t\tlabel: 'Option1',",
+				"\t},",
+				"\t{",
+					"\t\tvalue: 'Option2',",
+					"\t\tlabel: 'Option2',",
+				"\t},",
+				"\t{",
+					"\t\tvalue: 'Option3',",
+					"\t\tlabel: 'Option3',",
+				"\t},",
+				"\t{",
+					"\t\tvalue: 'Option4',",
+					"\t\tlabel: 'Option4',",
+				"\t},",
+				"\t{",
+					"\t\tvalue: 'Option5',",
+					"\t\tlabel: 'Option5',",
+				"\t},",
+			"]",
+			
+			 
+			 
+			"$2"
+		],
+		"description": "ElementPlus el-select"
+	},
+
 
 
 

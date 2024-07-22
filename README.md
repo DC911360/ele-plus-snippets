@@ -16,6 +16,8 @@ Continuously updating 持续更新中
 | 4     |   Ellink        | el-link         |
 | 5     |   Eltext        | el-text         |
 | 6     |   Elscrollbar   | el-scrollbar    |
+| 7     |   Elselect      | el-select       |
+
 
 
 
