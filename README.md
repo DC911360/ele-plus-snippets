@@ -17,7 +17,7 @@ Continuously updating 持续更新中
 | 5     |   Eltext        | el-text         |
 | 6     |   Elscrollbar   | el-scrollbar    |
 | 7     |   Elselect      | el-select       |
-
+| 8     |   Elswitch      | el-switch       |
 
 
 

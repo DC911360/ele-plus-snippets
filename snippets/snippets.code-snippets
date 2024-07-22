@@ -189,12 +189,23 @@
 					"\t\tlabel: 'Option5',",
 				"\t},",
 			"]",
-			
-			 
-			 
 			"$2"
 		],
 		"description": "ElementPlus el-select"
+	},
+
+	"Print to el-switch":{
+		"prefix": "Elswitch",
+		"body": [
+			"<div>",
+			"\t<el-switch v-model=\"value1\" />",
+			"\t<el-switch v-model=\"value2\" class=\"ml-2\" style=\"--el-switch-on-color: #13ce66; --el-switch-off-color: #ff4949\" />",
+  			"</div>\n",
+			"const value1 = ref(true)",
+			"const value2 = ref(true)",
+			"$2"
+		],
+		"description": "ElementPlus el-switch"
 	},
 
 
