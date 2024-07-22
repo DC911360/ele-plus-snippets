@@ -17,7 +17,7 @@ Continuously updating 持续更新中
 
 
 
-# How make Vscode Snippets
+# How to make a Vscode Snippets
  https://www.yuque.com/alipaytdm4pz8prz/fagota/uotrysrk14i9ckeu?singleDoc# 
 《如何创建一个VsCode 代码 片段》
 
